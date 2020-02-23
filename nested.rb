@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-return programmer_hash[:grace_hopper]
+programmer_hash[:grace_hopper]
 
 end
 
@@ -37,7 +37,7 @@ def alan_kay_is_known_for
         }
      }
      
-     return programmer_hash[:alan_kay][:known_for]
+     programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
@@ -108,7 +108,7 @@ def changing_alan
      }
      
      programmer_hash[:alan_kay][:known_for] = "GUI"
-     return programmer_hash
+     programmer_hash
      
 end
 
@@ -130,5 +130,5 @@ def adding_to_dennis
      }
 
 programmer_hash[:dennis_ritchie][:languages]  << "Assembly"
-     return programmer_hash
+     programmer_hash
 end
